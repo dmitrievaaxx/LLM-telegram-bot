@@ -26,18 +26,18 @@
 ## Структура проекта
 
 ```
-LLM-telegram-bot/
+/
 ├── bot/
-    ├── __init__.py                              
+│   ├── __init__.py                              
 │   ├── main.py                 → запуск бота 
 │   └── handlers.py             → обработка команд и сообщений
 │
 ├── llm/
-    ├── __init__.py
+│   ├── __init__.py
 │   └── client.py               → обёртка для работы с API LLM 
 │
 ├── tests/
-    ├── __init__.py
+│   ├── __init__.py
 │   └── test_bot.py             → базовые тесты логики 
 │
 ├── doc/
